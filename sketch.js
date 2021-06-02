@@ -445,7 +445,7 @@ function draw()
       orangesGroup4.destroyEach();
       //code to change the game state to instruction when the mouse is pressing on the restart button
       
-      if(touches.lenght>0 || keyDown("space") )
+      if(touches.lenght>0 || keyDown("space")|| mousePressedOver(restart) )
          {
          reset();
            touches = [];
