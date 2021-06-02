@@ -120,10 +120,10 @@ function draw()
       
       
       //code to make to move the knife with the X position of the mouse
-      knife.x=World.mouseX;
+      knife.x=mouseX;
       
       //code to make to move the knife with the Y position of the mouse
-      knife.y=World.mouseY;
+      knife.y=mouseY;
   
       //code to display the chopped score
       textSize(30);
